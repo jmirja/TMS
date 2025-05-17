@@ -6,7 +6,7 @@ using System.Text;
 using TMS.Application.Interfaces;
 using TMS.Domain.Entities;
 
-namespace TMS.Infastructure.Auth
+namespace TMS.Infrastructure.Auth
 {
     public class JwtService : IJwtService
     {

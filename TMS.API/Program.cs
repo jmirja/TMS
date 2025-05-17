@@ -4,8 +4,8 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using TMS.API.Middleware;
 using TMS.Application;
-using TMS.Infastructure;
-using TMS.Infastructure.Persistence;
+using TMS.Infrastructure;
+using TMS.Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Domain", "TMS.Domain\TM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Application", "TMS.Application\TMS.Application.csproj", "{2531185A-E172-4685-8A47-F5622588D97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Infastructure", "TMS.Infastructure\TMS.Infastructure.csproj", "{8C6F2B2F-C36E-49FD-A53E-F2BFC50FA3AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Infrastructure", "TMS.Infastructure\TMS.Infrastructure.csproj", "{8C6F2B2F-C36E-49FD-A53E-F2BFC50FA3AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.API", "TMS.API\TMS.API.csproj", "{05CF2801-0AAF-4CC4-8DB0-EABC6C0B0D3F}"
 EndProject

@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using TMS.Application.Interfaces;
 using TMS.Domain.Entities;
-using TMS.Infastructure.Persistence;
+using TMS.Infrastructure.Persistence;
 
-namespace TMS.Infastructure.Repositories
+namespace TMS.Infrastructure.Repositories
 {
     public class TeamRepository : ITeamRepository
     {

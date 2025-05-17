@@ -3,7 +3,7 @@ using TMS.Application.Interfaces;
 using TMS.Domain.Entities;
 using TMS.Domain.Enums;
 
-namespace TMS.Infastructure.Persistence
+namespace TMS.Infrastructure.Persistence
 {
     public static class DbSeeder
     {

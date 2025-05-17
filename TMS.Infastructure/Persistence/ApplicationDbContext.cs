@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TMS.Domain.Entities;
 
-namespace TMS.Infastructure.Persistence
+namespace TMS.Infrastructure.Persistence
 {
     public class ApplicationDbContext : DbContext
     {
