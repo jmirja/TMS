@@ -8,7 +8,7 @@ using TMS.Infrastructure.Persistence;
 
 #nullable disable
 
-namespace TMS.Infastructure.Migrations
+namespace TMS.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot

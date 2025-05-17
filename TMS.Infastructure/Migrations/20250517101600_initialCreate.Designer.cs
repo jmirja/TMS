@@ -9,10 +9,10 @@ using TMS.Infrastructure.Persistence;
 
 #nullable disable
 
-namespace TMS.Infastructure.Migrations
+namespace TMS.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250517095540_initialCreate")]
+    [Migration("20250517101600_initialCreate")]
     partial class initialCreate
     {
         /// <inheritdoc />

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace TMS.Infastructure.Migrations
+namespace TMS.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class initialCreate : Migration
