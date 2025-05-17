@@ -16,6 +16,7 @@ namespace TMS.Infastructure
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ITeamRepository, TeamRepository>();
             services.AddScoped<IJwtService, JwtService>();
 
             return services;

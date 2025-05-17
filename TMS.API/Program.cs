@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using TMS.API.Middleware;
 using TMS.Application;
 using TMS.Infastructure;
 using TMS.Infastructure.Persistence;
@@ -72,7 +73,7 @@ await DbSeeder.SeedUsersAsync(app.Services);
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

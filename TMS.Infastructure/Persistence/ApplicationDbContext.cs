@@ -8,6 +8,8 @@ namespace TMS.Infastructure.Persistence
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
         public DbSet<User> Users => Set<User>();
+        public DbSet<Team> Teams => Set<Team>();
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(e =>
@@ -25,6 +27,16 @@ namespace TMS.Infastructure.Persistence
                     .IsRequired();
                 e.Property(x => x.Role)
                     .IsRequired();
+            });
+
+            modelBuilder.Entity<Team>(e =>
+            {
+                e.HasKey(x => x.Id);
+                e.Property(x => x.Name)
+                    .IsRequired()
+                    .HasMaxLength(100);
+                e.Property(x => x.Description)
+                    .HasMaxLength(500);
             });
         }
     }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TMS.Domain.Enums;
 
 namespace TMS.Domain.Entities
 {
@@ -11,7 +7,7 @@ namespace TMS.Domain.Entities
         public Guid Id { get; set; }
         public string Title { get; set; } = default!;
         public string? Description { get; set; }
-        public TaskStatus Status { get; set; } = TaskStatus.Todo;
+        public TaskItemStatus Status { get; set; } = TaskItemStatus.Todo;
         public Guid AssignedToUserId { get; set; }
         public Guid CreatedByUserId { get; set; }
         public Guid TeamId { get; set; }

@@ -12,7 +12,7 @@ using TMS.Infastructure.Persistence;
 namespace TMS.Infastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250517082516_initialCreate")]
+    [Migration("20250517095540_initialCreate")]
     partial class initialCreate
     {
         /// <inheritdoc />
@@ -24,6 +24,26 @@ namespace TMS.Infastructure.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("TMS.Domain.Entities.Team", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Teams");
+                });
 
             modelBuilder.Entity("TMS.Domain.Entities.User", b =>
                 {
