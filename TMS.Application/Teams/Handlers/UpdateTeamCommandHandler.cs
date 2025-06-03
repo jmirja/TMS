@@ -1,6 +1,6 @@
 ﻿using MediatR;
-using TMS.Application.Interfaces;
 using TMS.Application.Teams.Commands;
+using TMS.Domain.Interfaces;
 
 namespace TMS.Application.Teams.Handlers
 {

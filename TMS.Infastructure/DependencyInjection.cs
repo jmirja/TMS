@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using TMS.Application.Interfaces;
+using TMS.Domain.Interfaces;
 using TMS.Infrastructure.Auth;
 using TMS.Infrastructure.Persistence;
 using TMS.Infrastructure.Repositories;

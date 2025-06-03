@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using TMS.Application.DTOs;
-using TMS.Application.Interfaces;
 using TMS.Application.Teams.Queries;
+using TMS.Domain.Interfaces;
 
 namespace TMS.Application.Teams.Handlers
 {

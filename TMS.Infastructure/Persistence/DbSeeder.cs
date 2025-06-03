@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using TMS.Application.Interfaces;
 using TMS.Domain.Entities;
 using TMS.Domain.Enums;
+using TMS.Domain.Interfaces;
 
 namespace TMS.Infrastructure.Persistence
 {

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using MediatR;
 using TMS.Application.DTOs;
-using TMS.Application.Interfaces;
 using TMS.Application.Users.Queries;
+using TMS.Domain.Interfaces;
 
 namespace TMS.Application.Users.Handlers
 {

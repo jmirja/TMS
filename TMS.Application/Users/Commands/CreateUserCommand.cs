@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using TMS.Application.DTOs;
 using TMS.Domain.Enums;
 
 namespace TMS.Application.Users.Command

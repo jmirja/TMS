@@ -1,6 +1,6 @@
 ﻿using TMS.Domain.Entities;
 
-namespace TMS.Application.Interfaces
+namespace TMS.Domain.Interfaces
 {
     public interface IUserRepository
     {

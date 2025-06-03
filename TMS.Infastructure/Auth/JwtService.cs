@@ -3,8 +3,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using TMS.Application.Interfaces;
 using TMS.Domain.Entities;
+using TMS.Domain.Interfaces;
 
 namespace TMS.Infrastructure.Auth
 {

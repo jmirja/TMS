@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TMS.Application.Interfaces;
 using TMS.Domain.Entities;
+using TMS.Domain.Interfaces;
 using TMS.Infrastructure.Persistence;
 
 namespace TMS.Infrastructure.Repositories

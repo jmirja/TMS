@@ -1,7 +1,6 @@
 ﻿using MediatR;
-using TMS.Application.Interfaces;
 using TMS.Application.Users.Command;
-using TMS.Domain.Enums;
+using TMS.Domain.Interfaces;
 
 namespace TMS.Application.Users.Handlers
 {

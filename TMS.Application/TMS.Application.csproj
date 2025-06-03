@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Tasks\**" />
+    <EmbeddedResource Remove="Tasks\**" />
+    <None Remove="Tasks\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="FluentValidation" Version="11.3.0" />
@@ -17,12 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TMS.Domain\TMS.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Tasks\Commands\" />
-    <Folder Include="Tasks\Handlers\" />
-    <Folder Include="Tasks\Queries\" />
   </ItemGroup>
 
 </Project>
