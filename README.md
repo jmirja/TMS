@@ -6,8 +6,8 @@ A clean-architecture based .NET 8 Web API project for managing Users, Teams, and
 
 ## 📁 Project Structure
 
-- `TMS.Domain` - Entity models and enums.
-- `TMS.Application` - Application logic, DTOs, CQRS commands/queries/handlers, interfaces.
+- `TMS.Domain` - Entity models, interfaces and enums.
+- `TMS.Application` - Application logic, DTOs, CQRS commands/queries/handlers, DI configuration.
 - `TMS.Infrastructure` - EF Core DbContext, repositories, seeders, DI configuration.
 - `TMS.API` - Web API project with controllers, middleware, JWT authentication.
 
@@ -21,3 +21,4 @@ A clean-architecture based .NET 8 Web API project for managing Users, Teams, and
 - FluentValidation
 - AutoMapper
 - Swagger / OpenAPI
+- Docker
