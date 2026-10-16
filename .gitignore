@@ -1,0 +1,112 @@
+# Build output
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Aa]ny[Dd]ebug/
+[Aa]ny[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# .NET SDK and NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
+*.nuget.cache
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+
+# Test and coverage output
+TestResults/
+**/TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+*.trx
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.vspscc
+*.vssscc
+
+# Visual Studio generated files
+Generated\ Files/
+_Chutzpah*
+*.cachefile
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.cache
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# VS Code workspace state (keep shareable settings, tasks, and launch configs)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets.json
+secrets.*.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and editor backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Publish output
+publish/
+wwwroot/lib/
